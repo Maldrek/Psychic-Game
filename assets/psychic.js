@@ -24,6 +24,8 @@
             if (userGuess === computerGuess) {
                 wins++;
                 alert("!!!YOU WIN!!!");
+                guessesLeft=15;
+                letters=[];
             } else {
                 guessesLeft--;
             }
@@ -32,6 +34,7 @@
                 alert("GAME OVER Please Play Again");
                 losses++;
                 guessesLeft = 15;
+                letters=[];
             }
 
             // HTML display functions
