@@ -40,7 +40,7 @@
             // HTML display functions
             var html =
                 "<h2>Are you Psychic?</h2>" +
-                "<h4>Can you guess what letter I am thinking off. . . </h4>" +
+                "<h4>Which letter did I pick...? </h4>" +
                 "<p>You chose: " + userGuess + "</p>" +
                 "<p>The computer chose: " + computerGuess + "</p>" +
                 "<p>Wins: " + wins + "</p>" +
